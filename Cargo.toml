@@ -1,0 +1,18 @@
+[package]
+name = "fec-simulator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+networkcoding = { path = "../networkcoding2", features = ["enable-rlc"] }
+log = { version = "0.4", features = ["std"] }
+env_logger = "0.9.0"
+rand = { version="0.8.4", features = ["small_rng"]}
+bitmaps = "3.2.0"
+clap = { version="4.4.2", features = ["derive"] }
+csv = "1.2.2"
+
+[features]
+rlc = []
