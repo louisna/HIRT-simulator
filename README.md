@@ -56,4 +56,12 @@ In order:
 
 This simulator is part of the [The High-speed Robust Tunnel (HIRT)](https://github.com/louisna/HIRT.git) project. Please cite this paper if you use the simulator or its results.
 
-TODO: add proper citation.
+```
+@inproceedings{navarre2024high,
+  title={A High-Speed Robust Tunnel using Forward Erasure Correction in Segment Routing},
+  author={Navarre, Louis and Michel, Fran{\c{c}}ois and Barbette, Tom},
+  booktitle={2024 IEEE 32nd International Conference on Network Protocols (ICNP)},
+  year={Under press, 2024},
+  organization={IEEE}
+}
+```
